@@ -1,0 +1,580 @@
+INFO  06:59:42 Now listening on: http://localhost:5000
+INFO  06:59:42 Now listening on: http://localhost:5000
+INFO  06:59:42 Application started. Press Ctrl+C to shut down.
+INFO  06:59:42 Application started. Press Ctrl+C to shut down.
+INFO  06:59:42 Hosting environment: Development
+INFO  06:59:42 Hosting environment: Development
+INFO  06:59:42 Content root path: C:\Users\Adith Jose\Desktop\MFPE\AuthorizationAPI\AuthorizationAPI
+INFO  06:59:42 Content root path: C:\Users\Adith Jose\Desktop\MFPE\AuthorizationAPI\AuthorizationAPI
+WARN  07:01:34 Failed to determine the https port for redirect.
+WARN  07:01:34 Failed to determine the https port for redirect.
+INFO  07:01:35 Login initiated!
+INFO  07:01:35 Validating the User!
+INFO  07:01:35 Token Is Generated!
+INFO  07:04:32 Login initiated!
+INFO  07:04:32 Validating the User!
+INFO  07:04:32 Token Is Generated!
+INFO  07:05:45 Login initiated!
+INFO  07:05:45 Validating the User!
+INFO  07:05:45 Token Is Generated!
+INFO  02:39:36 Now listening on: http://localhost:5000
+INFO  02:39:36 Now listening on: http://localhost:5000
+INFO  02:39:36 Application started. Press Ctrl+C to shut down.
+INFO  02:39:36 Application started. Press Ctrl+C to shut down.
+INFO  02:39:36 Hosting environment: Development
+INFO  02:39:36 Hosting environment: Development
+INFO  02:39:36 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  02:39:36 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  02:40:05 Failed to determine the https port for redirect.
+WARN  02:40:05 Failed to determine the https port for redirect.
+INFO  02:40:07 Login initiated!
+INFO  02:40:07 Validating the User!
+INFO  02:41:49 Login initiated!
+INFO  02:41:49 Validating the User!
+INFO  02:41:49 Token Is Generated!
+FATAL 03:03:31 Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+FATAL 03:03:31 Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+INFO  03:04:33 Now listening on: http://localhost:5000
+INFO  03:04:33 Now listening on: http://localhost:5000
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  03:04:33 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  03:04:58 Failed to determine the https port for redirect.
+WARN  03:04:58 Failed to determine the https port for redirect.
+INFO  03:04:59 Login initiated!
+INFO  03:04:59 Validating the User!
+INFO  03:05:02 Token Is Generated!
+INFO  03:05:27 Login initiated!
+INFO  03:05:27 Validating the User!
+INFO  03:07:20 Login initiated!
+INFO  03:07:20 Validating the User!
+INFO  03:07:20 Token Is Generated!
+INFO  03:07:48 Login initiated!
+INFO  03:07:48 Validating the User!
+INFO  03:07:48 Token Is Generated!
+INFO  03:08:31 Login initiated!
+INFO  03:08:31 Validating the User!
+INFO  03:08:31 Token Is Generated!
+INFO  03:09:01 Login initiated!
+INFO  03:09:01 Validating the User!
+INFO  11:32:55 Now listening on: http://localhost:5000
+INFO  11:32:55 Now listening on: http://localhost:5000
+INFO  11:32:55 Application started. Press Ctrl+C to shut down.
+INFO  11:32:55 Application started. Press Ctrl+C to shut down.
+INFO  11:32:55 Hosting environment: Development
+INFO  11:32:55 Hosting environment: Development
+INFO  11:32:55 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  11:32:55 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  11:33:17 Failed to determine the https port for redirect.
+WARN  11:33:17 Failed to determine the https port for redirect.
+INFO  11:33:17 Login initiated!
+INFO  11:33:17 Validating the User!
+INFO  11:33:19 Token Is Generated!
+INFO  11:33:28 Login initiated!
+INFO  11:33:28 Validating the User!
+INFO  11:33:28 Token Is Generated!
+INFO  11:33:30 Login initiated!
+INFO  11:33:30 Validating the User!
+INFO  11:33:30 Token Is Generated!
+INFO  11:33:46 Login initiated!
+INFO  11:33:46 Validating the User!
+INFO  11:33:46 Token Is Generated!
+INFO  11:33:48 Login initiated!
+INFO  11:33:48 Validating the User!
+INFO  11:33:48 Token Is Generated!
+INFO  11:33:48 Login initiated!
+INFO  11:33:48 Validating the User!
+INFO  11:33:48 Token Is Generated!
+INFO  11:33:49 Login initiated!
+INFO  11:33:49 Validating the User!
+INFO  11:33:49 Token Is Generated!
+INFO  11:34:21 Now listening on: http://localhost:5000
+INFO  11:34:21 Now listening on: http://localhost:5000
+INFO  11:34:21 Application started. Press Ctrl+C to shut down.
+INFO  11:34:21 Application started. Press Ctrl+C to shut down.
+INFO  11:34:21 Hosting environment: Development
+INFO  11:34:21 Hosting environment: Development
+INFO  11:34:21 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  11:34:21 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  11:34:41 Failed to determine the https port for redirect.
+WARN  11:34:41 Failed to determine the https port for redirect.
+INFO  11:34:52 Login initiated!
+INFO  11:35:12 Validating the User!
+INFO  11:36:38 Now listening on: http://localhost:5000
+INFO  11:36:39 Now listening on: http://localhost:5000
+INFO  11:36:39 Application started. Press Ctrl+C to shut down.
+INFO  11:36:39 Application started. Press Ctrl+C to shut down.
+INFO  11:36:39 Hosting environment: Development
+INFO  11:36:39 Hosting environment: Development
+INFO  11:36:39 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  11:36:39 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  11:37:04 Failed to determine the https port for redirect.
+WARN  11:37:04 Failed to determine the https port for redirect.
+INFO  11:37:11 Login initiated!
+INFO  11:37:12 Validating the User!
+INFO  11:41:09 Now listening on: http://localhost:5000
+INFO  11:41:09 Now listening on: http://localhost:5000
+INFO  11:41:09 Application started. Press Ctrl+C to shut down.
+INFO  11:41:09 Application started. Press Ctrl+C to shut down.
+INFO  11:41:09 Hosting environment: Development
+INFO  11:41:09 Hosting environment: Development
+INFO  11:41:09 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  11:41:09 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  11:41:29 Failed to determine the https port for redirect.
+WARN  11:41:29 Failed to determine the https port for redirect.
+INFO  11:41:38 Login initiated!
+INFO  11:41:40 Validating the User!
+INFO  11:42:01 Token Is Generated!
+INFO  11:59:12 Now listening on: http://localhost:5000
+INFO  11:59:12 Now listening on: http://localhost:5000
+INFO  11:59:12 Application started. Press Ctrl+C to shut down.
+INFO  11:59:12 Application started. Press Ctrl+C to shut down.
+INFO  11:59:12 Hosting environment: Development
+INFO  11:59:12 Hosting environment: Development
+INFO  11:59:12 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  11:59:12 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  11:59:33 Failed to determine the https port for redirect.
+WARN  11:59:33 Failed to determine the https port for redirect.
+INFO  11:59:37 Login initiated!
+INFO  11:59:38 Validating the User!
+INFO  12:00:12 Token Is Generated!
+INFO  12:01:25 Now listening on: http://localhost:5000
+INFO  12:01:25 Now listening on: http://localhost:5000
+INFO  12:01:25 Application started. Press Ctrl+C to shut down.
+INFO  12:01:25 Application started. Press Ctrl+C to shut down.
+INFO  12:01:25 Hosting environment: Development
+INFO  12:01:25 Hosting environment: Development
+INFO  12:01:25 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  12:01:25 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  12:01:40 Failed to determine the https port for redirect.
+WARN  12:01:40 Failed to determine the https port for redirect.
+INFO  12:01:43 Login initiated!
+INFO  12:01:44 Validating the User!
+INFO  10:27:45 Now listening on: http://localhost:5000
+INFO  10:27:45 Now listening on: http://localhost:5000
+INFO  10:27:45 Application started. Press Ctrl+C to shut down.
+INFO  10:27:45 Application started. Press Ctrl+C to shut down.
+INFO  10:27:45 Hosting environment: Development
+INFO  10:27:45 Hosting environment: Development
+INFO  10:27:45 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  10:27:45 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+WARN  10:28:08 Failed to determine the https port for redirect.
+WARN  10:28:08 Failed to determine the https port for redirect.
+INFO  10:28:09 Login initiated!
+INFO  10:28:09 Validating the User!
+INFO  10:31:59 Application started. Press Ctrl+C to shut down.
+INFO  10:31:59 Application started. Press Ctrl+C to shut down.
+INFO  10:31:59 Hosting environment: Development
+INFO  10:31:59 Hosting environment: Development
+INFO  10:31:59 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  10:31:59 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  10:36:02 Login initiated!
+INFO  10:36:02 Validating the User!
+INFO  10:38:33 Login initiated!
+INFO  10:38:33 Validating the User!
+INFO  10:38:33 Token Is Generated!
+INFO  12:08:53 Application started. Press Ctrl+C to shut down.
+INFO  12:08:53 Application started. Press Ctrl+C to shut down.
+INFO  12:08:53 Hosting environment: Development
+INFO  12:08:53 Hosting environment: Development
+INFO  12:08:53 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  12:08:53 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  12:12:45 Login initiated!
+INFO  12:12:45 Validating the User!
+INFO  12:14:08 Login initiated!
+INFO  12:14:08 Validating the User!
+INFO  12:14:09 Token Is Generated!
+INFO  01:00:07 Login initiated!
+INFO  01:00:07 Validating the User!
+INFO  01:00:07 Token Is Generated!
+INFO  08:08:45 Application started. Press Ctrl+C to shut down.
+INFO  08:08:45 Application started. Press Ctrl+C to shut down.
+INFO  08:08:45 Hosting environment: Development
+INFO  08:08:45 Hosting environment: Development
+INFO  08:08:45 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  08:08:45 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  08:13:03 Login initiated!
+INFO  08:13:03 Validating the User!
+INFO  08:13:06 Token Is Generated!
+INFO  08:40:33 Application started. Press Ctrl+C to shut down.
+INFO  08:40:33 Application started. Press Ctrl+C to shut down.
+INFO  08:40:33 Hosting environment: Development
+INFO  08:40:33 Hosting environment: Development
+INFO  08:40:33 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  08:40:33 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  08:41:10 Login initiated!
+INFO  08:41:10 Validating the User!
+INFO  08:41:12 Token Is Generated!
+INFO  12:35:06 Application started. Press Ctrl+C to shut down.
+INFO  12:35:07 Application started. Press Ctrl+C to shut down.
+INFO  12:35:07 Hosting environment: Development
+INFO  12:35:07 Hosting environment: Development
+INFO  12:35:07 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  12:35:07 Content root path: C:\Users\Adith Jose\Desktop\MFPE-DB\AuthorizationAPI\AuthorizationAPI
+INFO  12:36:23 Login initiated!
+INFO  12:36:23 Validating the User!
+INFO  12:36:26 Token Is Generated!
+INFO  03:26:03 Application started. Press Ctrl+C to shut down.
+INFO  03:26:03 Application started. Press Ctrl+C to shut down.
+INFO  03:26:03 Hosting environment: Development
+INFO  03:26:03 Hosting environment: Development
+INFO  03:26:03 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  03:26:03 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  03:26:56 Login initiated!
+INFO  03:26:56 Validating the User!
+INFO  03:27:01 Token Is Generated!
+INFO  04:28:07 Application started. Press Ctrl+C to shut down.
+INFO  04:28:07 Application started. Press Ctrl+C to shut down.
+INFO  04:28:08 Hosting environment: Development
+INFO  04:28:08 Hosting environment: Development
+INFO  04:28:08 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  04:28:08 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  04:46:21 Login initiated!
+INFO  04:46:21 Validating the User!
+INFO  04:46:25 Token Is Generated!
+INFO  01:59:37 Application started. Press Ctrl+C to shut down.
+INFO  01:59:37 Application started. Press Ctrl+C to shut down.
+INFO  01:59:37 Hosting environment: Development
+INFO  01:59:37 Hosting environment: Development
+INFO  01:59:37 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  01:59:37 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  01:59:47 Login initiated!
+INFO  01:59:47 Validating the User!
+INFO  02:06:43 Application started. Press Ctrl+C to shut down.
+INFO  02:06:43 Application started. Press Ctrl+C to shut down.
+INFO  02:06:43 Hosting environment: Development
+INFO  02:06:43 Hosting environment: Development
+INFO  02:06:43 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  02:06:43 Content root path: C:\Users\Adith Jose\Desktop\MFPE-GIT\AuthorizationAPI\AuthorizationAPI
+INFO  02:20:42 Application started. Press Ctrl+C to shut down.
+INFO  02:20:42 Application started. Press Ctrl+C to shut down.
+INFO  02:20:42 Hosting environment: Development
+INFO  02:20:42 Hosting environment: Development
+INFO  02:20:42 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+INFO  02:20:42 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+WARN  02:22:21 Failed to determine the https port for redirect.
+WARN  02:22:21 Failed to determine the https port for redirect.
+INFO  02:24:36 Login initiated!
+INFO  02:24:36 Validating the User!
+INFO  02:24:39 Token Is Generated!
+INFO  02:31:33 Application started. Press Ctrl+C to shut down.
+INFO  02:31:33 Application started. Press Ctrl+C to shut down.
+INFO  02:31:33 Hosting environment: Development
+INFO  02:31:33 Hosting environment: Development
+INFO  02:31:33 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+INFO  02:31:33 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+WARN  02:31:54 Failed to determine the https port for redirect.
+WARN  02:31:54 Failed to determine the https port for redirect.
+INFO  02:31:54 Login initiated!
+INFO  02:31:54 Validating the User!
+INFO  02:31:57 Token Is Generated!
+INFO  12:37:15 Application started. Press Ctrl+C to shut down.
+INFO  12:37:15 Application started. Press Ctrl+C to shut down.
+INFO  12:37:15 Hosting environment: Development
+INFO  12:37:15 Hosting environment: Development
+INFO  12:37:15 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+INFO  12:37:15 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+WARN  12:38:31 Failed to determine the https port for redirect.
+WARN  12:38:31 Failed to determine the https port for redirect.
+INFO  12:38:33 Login initiated!
+INFO  12:38:33 Validating the User!
+INFO  12:38:36 Token Is Generated!
+INFO  12:43:29 Application started. Press Ctrl+C to shut down.
+INFO  12:43:29 Application started. Press Ctrl+C to shut down.
+INFO  12:43:29 Hosting environment: Development
+INFO  12:43:29 Hosting environment: Development
+INFO  12:43:29 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+INFO  12:43:29 Content root path: C:\Users\Adith Jose\Desktop\mfpe-ang\AuthorizationAPI\AuthorizationAPI
+WARN  12:43:52 Failed to determine the https port for redirect.
+WARN  12:43:52 Failed to determine the https port for redirect.
+INFO  12:43:53 Login initiated!
+INFO  12:43:53 Validating the User!
+INFO  12:43:55 Token Is Generated!
+INFO  09:57:32 Application started. Press Ctrl+C to shut down.
+INFO  09:57:32 Application started. Press Ctrl+C to shut down.
+INFO  09:57:32 Hosting environment: Development
+INFO  09:57:32 Hosting environment: Development
+INFO  09:57:32 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+INFO  09:57:32 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+WARN  09:57:52 Failed to determine the https port for redirect.
+WARN  09:57:52 Failed to determine the https port for redirect.
+INFO  09:57:54 Login initiated!
+INFO  09:57:54 Validating the User!
+INFO  09:57:56 Token Is Generated!
+INFO  09:58:46 Login initiated!
+INFO  09:58:46 Validating the User!
+INFO  09:58:46 Token Is Generated!
+INFO  10:02:39 Login initiated!
+INFO  10:02:39 Validating the User!
+INFO  10:02:39 Token Is Generated!
+INFO  12:27:37 Application started. Press Ctrl+C to shut down.
+INFO  12:27:38 Application started. Press Ctrl+C to shut down.
+INFO  12:27:38 Hosting environment: Development
+INFO  12:27:38 Hosting environment: Development
+INFO  12:27:38 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+INFO  12:27:38 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+WARN  12:29:11 Failed to determine the https port for redirect.
+WARN  12:29:11 Failed to determine the https port for redirect.
+INFO  12:29:17 Login initiated!
+INFO  12:29:17 Validating the User!
+INFO  12:29:24 Token Is Generated!
+INFO  12:34:19 Login initiated!
+INFO  12:34:19 Validating the User!
+INFO  12:34:19 Token Is Generated!
+INFO  12:34:39 Login initiated!
+INFO  12:34:39 Validating the User!
+INFO  12:34:39 Token Is Generated!
+INFO  12:36:44 Login initiated!
+INFO  12:36:44 Validating the User!
+INFO  12:36:44 Token Is Generated!
+INFO  03:08:12 Login initiated!
+INFO  03:08:12 Login initiated!
+INFO  03:08:13 Validating the User!
+INFO  03:08:13 Validating the User!
+INFO  03:08:22 Token Is Generated!
+INFO  03:08:22 Token Is Generated!
+INFO  03:39:16 Login initiated!
+INFO  03:39:16 Validating the User!
+INFO  03:39:16 Token Is Generated!
+INFO  12:01:21 Application started. Press Ctrl+C to shut down.
+INFO  12:01:21 Application started. Press Ctrl+C to shut down.
+INFO  12:01:21 Hosting environment: Development
+INFO  12:01:21 Hosting environment: Development
+INFO  12:01:21 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+INFO  12:01:21 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+WARN  12:07:12 Failed to determine the https port for redirect.
+WARN  12:07:12 Failed to determine the https port for redirect.
+INFO  12:07:21 Login initiated!
+INFO  12:07:21 Validating the User!
+INFO  12:07:29 Token Is Generated!
+INFO  12:10:06 Login initiated!
+INFO  12:10:06 Validating the User!
+INFO  12:10:06 Token Is Generated!
+INFO  12:50:22 Login initiated!
+INFO  12:50:22 Validating the User!
+INFO  12:50:22 Token Is Generated!
+INFO  08:22:22 Application started. Press Ctrl+C to shut down.
+INFO  08:22:23 Application started. Press Ctrl+C to shut down.
+INFO  08:22:23 Hosting environment: Development
+INFO  08:22:23 Hosting environment: Development
+INFO  08:22:23 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+INFO  08:22:23 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+WARN  08:22:23 Failed to determine the https port for redirect.
+WARN  08:22:23 Failed to determine the https port for redirect.
+INFO  08:26:52 Login initiated!
+INFO  08:26:52 Validating the User!
+INFO  08:27:28 Token Is Generated!
+INFO  08:28:37 Login initiated!
+INFO  08:28:37 Validating the User!
+INFO  08:28:37 Token Is Generated!
+INFO  09:10:26 Login initiated!
+INFO  09:10:26 Validating the User!
+INFO  09:10:26 Token Is Generated!
+INFO  09:10:27 Login initiated!
+INFO  09:10:27 Validating the User!
+INFO  09:10:27 Token Is Generated!
+INFO  09:11:09 Login initiated!
+INFO  09:11:09 Validating the User!
+INFO  09:11:09 Token Is Generated!
+INFO  09:28:24 Login initiated!
+INFO  09:28:24 Validating the User!
+INFO  09:28:24 Token Is Generated!
+INFO  12:33:05 Application started. Press Ctrl+C to shut down.
+INFO  12:33:05 Application started. Press Ctrl+C to shut down.
+INFO  12:33:05 Hosting environment: Development
+INFO  12:33:05 Hosting environment: Development
+INFO  12:33:05 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+INFO  12:33:05 Content root path: C:\Users\amall\Downloads\AuthorizationAPI\AuthorizationAPI\AuthorizationAPI
+WARN  12:36:14 Failed to determine the https port for redirect.
+WARN  12:36:14 Failed to determine the https port for redirect.
+INFO  12:39:28 Login initiated!
+INFO  12:39:28 Validating the User!
+ERROR 12:41:16 An error occurred using the connection to database 'TestAuth' on server '.'.
+ERROR 12:41:16 An error occurred using the connection to database 'TestAuth' on server '.'.
+ERROR 12:41:33 An exception occurred while iterating over the results of a query for context type 'AuthorizationAPI.DBLayer.UserContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+ERROR 12:41:33 An exception occurred while iterating over the results of a query for context type 'AuthorizationAPI.DBLayer.UserContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+INFO  12:58:44 Login initiated!
+INFO  12:58:44 Validating the User!
+INFO  12:58:46 Token Is Generated!
+INFO  01:05:22 Login initiated!
+INFO  01:05:22 Login initiated!
+INFO  01:05:22 Validating the User!
+INFO  01:05:22 Login initiated!
+INFO  01:05:22 Validating the User!
+INFO  01:05:22 Validating the User!
+INFO  01:05:22 Token Is Generated!
+INFO  01:05:22 Token Is Generated!
+INFO  01:05:22 Token Is Generated!
+INFO  01:35:30 Login initiated!
+INFO  01:35:30 Validating the User!
+INFO  01:35:31 Token Is Generated!
+INFO  01:37:47 Login initiated!
+INFO  01:37:47 Validating the User!
+INFO  01:37:47 Token Is Generated!
